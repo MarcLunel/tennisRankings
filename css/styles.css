@@ -3,6 +3,32 @@
     src: url(../fonts/Lato-Light.ttf) format("truetype");
 }
 
+body{
+  background-color: #f0f0f0;
+  cursor:default;
+}
+
+.changement-score-negatif{
+  padding:5px;
+  border-radius: 3px;
+  color:#f0f0f0;
+  background-color: #e74c3c;
+}
+
+.changement-score-positif{
+  padding:5px;
+  border-radius: 3px;
+  color:#f0f0f0;
+  background-color: #2ecc71;
+}
+
+img.drapeau{
+  position: relative;
+  vertical-align: middle;
+  padding-right: 10px;
+  bottom:2px;
+}
+
 h1{
   font-family: Lato;
   text-align: center;
@@ -21,7 +47,7 @@ table .fleche-score-precedent{
   font-weight: bold;
 }
 
-tbody td:first-of-type{
+tbody td:first-of-type, tbody td:nth-of-type(2){
   text-align: center;
 }
 
@@ -43,5 +69,5 @@ td, th{
 }
 
 thead, tr{
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #bbb;
 }
